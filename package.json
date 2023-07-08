@@ -1,0 +1,21 @@
+{
+  "name": "notion-client-orm",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "A set of utilities for Notion Client",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:": "tsup src/index.ts  --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "author": "codyslexia",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tsup": "^7.1.0"
+  }
+}
