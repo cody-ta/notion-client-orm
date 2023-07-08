@@ -7,15 +7,13 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts  --format cjs,esm --dts",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
-  "author": "codyslexia",
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "tsup": "^7.1.0"
+    "@changesets/cli": "^2.26.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
   }
 }
