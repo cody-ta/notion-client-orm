@@ -1,7 +1,7 @@
 {
   "name": "notion-client-orm",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A set of utilities for Notion Client",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
